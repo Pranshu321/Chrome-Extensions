@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Shortify | Save</title>
+</head>
+<body style="width: 400px;" class="bg-dark">
+    <div class="alert alert-danger mx-2 my-2 d-none" role="alert" id="error" style="padding: 5px 20px;">
+        Please enter valid API
+    </div>
+    <div class="alert alert-success mx-2 my-2 d-none" role="alert" id="success" style="padding: 5px 20px;">
+        API Key Saved
+    </div>
+    <div class="card bg-dark">
+        <div class="card-header text-success" style="font-size: 15px; font-weight: 600;">
+            API KEY SAVER
+        </div>
+        <div class="card-body">
+            <div class="my-2">
+                <label for="url" class="form-label text-white">Enter the API Key</label>
+                <input type="password" class="form-control" id="myapi" placeholder="dsadadsdsda">
+            </div>
+            <button type="button" id="save" class="btn btn-outline-success mt-2"
+                style="padding: 6px 30px;">Save</button>
+        </div>
+    </div>
+</body>
+<script defer src="./options.js"></script>
+</html>

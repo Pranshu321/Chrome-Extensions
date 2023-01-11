@@ -1,0 +1,17 @@
+{
+	"name": "Shortify",
+	"description": "Url Shortner Extension",
+	"version": "1.0",
+	"manifest_version": 3,
+	"icons": {
+		"128": "logo.png"
+	},
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"options_ui": {
+		"page": "options.html",
+		"open_in_tab": false
+	},
+	"permissions": ["storage"]
+}
